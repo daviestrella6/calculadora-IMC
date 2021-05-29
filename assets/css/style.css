@@ -1,0 +1,98 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+}
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+.container{ 
+    margin:  30px auto;
+    padding: 20px;
+    width: 400px;
+    height: 550px;
+    background-color: #5e60ce;
+}
+/* border nos elementos */
+.border, .btn{
+    border: 2px solid #f9f3f3;
+    border-radius: 15px;
+}
+
+/* fonts */
+.font, span, #resultado{
+    font-weight: 300;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    color: #f9f3f3;
+}
+.msg{
+    text-align: right;
+}
+/* font size H1 */
+.font-size{
+    font-weight: 600;
+    font-size: 40px;
+}
+/* box shadow */
+.container, .option{
+    box-shadow: 0px 0px 10px 2px  #00b4d8;
+
+}
+.box-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+/* opições de altura e peso (box) */
+.option{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    margin: 0px auto 40px;
+    font-size: 20px;
+    width: 80%;
+}
+.option:nth-child(2){
+    margin: 0px auto 10px;
+
+}
+.btn{
+    background: none;
+    color: #f9f3f3;
+    border: 2px solid #f9f3f3;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin: 20px 20px 10px;
+    padding: 5px 10px;
+    transition: 0.6s;
+}
+.btn.btn-calcular{
+    cursor: pointer;
+    font-size: 40px;
+    padding: 15px;
+    transition: 0.5s;
+    width: 90%;
+    margin-top: 0;
+}
+.btn:hover{
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 2px  #76c893;
+
+}
+#resultado{
+    font-size: 20px;
+    margin: 10px auto;
+}
+.data{
+    text-align: center;
+    color: #00b4d8;
+
+}

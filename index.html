@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container border">
+        <h1 class="font font-size">Calculadora de IMC</h1>
+        <h4 class="font"><i>Veja seu Índice de Massa corporal facilmente</i></h4>
+        
+        
+         <form class="box-size">
+            <div class="option border">
+                <p class="font">Digite o seu peso</p> 
+                <input id="peso" class="btn" type="number"><span class="msg">Quilos</span>
+            </div>
+              <div class="option border">
+                <p class="font">Digite sua altura</p> 
+               <input id="altura" class="btn" type="number"> <span class="msg">Metros</span>
+              </div>
+              <div id="resultado"></div>
+            <input onclick="calculandoIMC()" id="botao-calcular" class="btn btn-calcular" type="button" value="Calcular">
+        
+          </form>
+    </div>
+    <script type="text/javascript" src="./JS/main.js">
+    </script>
+          <p class="data">29/05/2021</p>
+</body>
+</html>
